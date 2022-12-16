@@ -19,13 +19,9 @@ int largest_number(int a, int b, int c)
 	{
 		largest = b;
 	}
-	else if (c > b && c > a)
-	{
-		largest = c;
-	}
 	else
 	{
-		printf("they are all equal");
+		largest = c;
 	}
 
 	return (largest);
